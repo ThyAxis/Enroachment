@@ -1,0 +1,74 @@
+{
+  "ambient_scary": {
+    "sounds": [
+      {
+        "name": "enroachment:ambient_scary",
+        "stream": true
+      }
+    ]
+  },
+"metal_explosion": {
+  "sounds": [
+    {
+      "name": "enroachment:metal_explosion",
+      "stream": true
+    }
+  ]
+},
+  "arm_fracture": {
+    "sounds": [
+      {
+        "name": "enroachment:arm_fracture",
+        "stream": true
+      }
+    ]
+  },
+  "clock_ambience": {
+    "sounds": [
+      {
+        "name": "enroachment:clock_ambience",
+        "stream": true
+      }
+    ]
+  },
+  "ghost_ambience_new": {
+    "sounds": [
+      {
+        "name": "enroachment:ghost_ambience_new",
+        "stream": true
+      }
+    ]
+  },
+  "ghost_atmosphere": {
+    "sounds": [
+      {
+        "name": "particletest:ghost_atmosphere",
+        "stream": true
+      }
+    ]
+  },
+  "glass_shatter": {
+    "sounds": [
+      {
+        "name": "enroachment:glass_shatter",
+        "stream": true
+      }
+    ]
+  },
+  "room_ambience": {
+    "sounds": [
+      {
+        "name": "enroachment:room_ambience",
+        "stream": true
+      }
+    ]
+  },
+  "wood_cracking": {
+    "sounds": [
+      {
+        "name": "enroachment:wood_cracking",
+        "stream": true
+      }
+    ]
+  }
+}
