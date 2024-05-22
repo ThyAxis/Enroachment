@@ -25,6 +25,11 @@ public class Enroachment
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+
+
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
