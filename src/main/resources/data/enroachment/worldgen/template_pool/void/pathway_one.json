@@ -1,0 +1,13 @@
+{
+  "name": "enroachment:void/pathway_one",
+  "fallback": "minecraft:empty",
+  "elements": [{
+    "weight": 1,
+    "element": {
+      "location": "enroachment:void/pathway_one",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  }]
+}

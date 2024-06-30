@@ -12,6 +12,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.thyaxis.enroachment.blocks.ModBlocks;
 import net.thyaxis.enroachment.items.ModItems;
+import net.thyaxis.enroachment.items.tab.EnroachmentTab;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Enroachment.MODID)
@@ -30,6 +31,7 @@ public class Enroachment
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        EnroachmentTab.register(modEventBus );
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }

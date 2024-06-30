@@ -4,11 +4,19 @@
     "type": "minecraft:flat",
     "settings": {
       "biome": "enroachment:astral",
+      "features": true,
       "layers": [
         {
-          "block": "minecraft:air",
+          "block": "minecraft:dirt",
+          "height": 2
+        },
+        {
+          "block": "enroachment:otherworld_grass",
           "height": 1
         }
+      ],
+      "structure_overrides": [
+        "enroachment:pathway_one"
       ]
     }
   }
